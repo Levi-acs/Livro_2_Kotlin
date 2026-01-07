@@ -12,6 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lista_de_Compas">
         <activity
+            android:name=".CadastroActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.support.PARRENT_ACTIVITY"
+                android:value=".MainActivity">
+            </meta-data>
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
