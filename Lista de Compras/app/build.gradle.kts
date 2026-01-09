@@ -61,6 +61,4 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
-    implementation("org.jetbrains.anko:anko-sqlite:0.10.8")
-    implementation("org.jetbrains.anko:anko-commons:0.10.8")
 }
