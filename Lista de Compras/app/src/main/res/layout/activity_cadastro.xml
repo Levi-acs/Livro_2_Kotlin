@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/txt_produto"
-        android:text="Nome do produto">
+        android:hint="Nome do produto">
     </EditText>
 
     <EditText
